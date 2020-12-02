@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "dependencies": {
+    "@tensorflow-models/toxicity": "^1.2.2",
+    "@tensorflow/tfjs": "^2.7.0",
+    "@tensorflow/tfjs-node": "^2.7.0",
+    "axios": "^0.21.0",
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.3",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.4",
+    "express": "^4.17.1",
+    "faker": "^5.1.0",
+    "pg": "^6.4.2",
+    "pg-native": "^3.0.0",
+    "request-promise-native": "^1.0.9",
+    "yelp-fusion": "^2.0.2"
+  },
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "local": "./node_modules/.bin/nodemon -L index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
